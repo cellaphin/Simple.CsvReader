@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>CsvReader</Title>
+    <PackageTags>csv;simple;csv reader;csvreader;easycsv;easy csv;simple csv reader</PackageTags>
+    <RepositoryUrl>https://github.com/cellaphin/CsvReader</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/cellaphin/CsvReader</PackageProjectUrl>
+    <Description>Simple CSV file reader to get you up and going with reading csv files with as little effort as possible.</Description>
+    <Company>cellaphin</Company>
+  </PropertyGroup>
+
+</Project>
