@@ -1,4 +1,4 @@
-﻿using CsvReader.Contracts;
+﻿using CsvReader.Interfaces;
 using Microsoft.VisualBasic.FileIO;
 
 namespace CsvReader;

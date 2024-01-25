@@ -1,4 +1,4 @@
-﻿namespace CsvReader.Contracts;
+﻿namespace CsvReader.Interfaces;
 
 public interface IMapper<TOutput>
 {
