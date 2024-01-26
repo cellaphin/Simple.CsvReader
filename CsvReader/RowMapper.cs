@@ -1,6 +1,6 @@
-﻿using CsvReader.Interfaces;
+﻿using Simple.CsvReader.Interfaces;
 
-namespace CsvReader;
+namespace Simple.CsvReader;
 
 public abstract class RowMapper<TOutput> : IMapper<TOutput>
 {

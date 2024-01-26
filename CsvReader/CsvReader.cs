@@ -1,7 +1,7 @@
-﻿using CsvReader.Interfaces;
+﻿using Simple.CsvReader.Interfaces;
 using Microsoft.VisualBasic.FileIO;
 
-namespace CsvReader;
+namespace Simple.CsvReader;
 
 public class CsvReader<TOutput>
 {

@@ -11,6 +11,7 @@
     <Description>Simple CSV file reader to get you up and going with reading csv files with as little effort as possible.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>6.0.0</Version>
+    <PackageId>Simple.$(AssemblyName)</PackageId>
   </PropertyGroup>
 
 </Project>
