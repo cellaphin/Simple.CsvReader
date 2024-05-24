@@ -21,13 +21,13 @@ public abstract class RowMapper<TOutput> : IMapper<TOutput>
         HeaderIndexes = new Dictionary<string, int>();
         foreach (var name in usedColumnNames)
         {
-            AddIndex(name, allColumnNames, HeaderIndexes);
+            AddIndex(name.ToLower(), allColumnNames, HeaderIndexes);
         }
     }
-    protected string GetField(string[] fields, string columnName) => fields[HeaderIndexes[columnName]].Trim();
+    protected string GetField(string[] fields, string columnName) => fields[HeaderIndexes[columnName.ToLower()]].Trim();
     private void AddIndex(string header, string[] headers, Dictionary<string, int> headerIndexes)
     {
-        var index = Array.IndexOf(headers, header);
+        var index = Array.FindIndex(headers, h => string.Equals(h, header, StringComparison.OrdinalIgnoreCase));
         if (index != -1)
             headerIndexes.Add(header, index);
         else
