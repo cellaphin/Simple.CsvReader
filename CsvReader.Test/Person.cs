@@ -1,4 +1,4 @@
-﻿namespace CsvReader.Net6.Test;
+﻿namespace CsvReader.Test;
 
 internal record Person
 {
