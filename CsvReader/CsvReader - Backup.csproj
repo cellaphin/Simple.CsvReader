@@ -10,7 +10,7 @@
     <PackageProjectUrl>https://github.com/cellaphin/CsvReader</PackageProjectUrl>
     <Description>Simple CSV file reader to get you up and going with reading csv files with as little effort as possible.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>8.0.0</Version>
+    <Version>6.0.1</Version>
     <PackageId>Simple.$(AssemblyName)</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>

@@ -1,5 +1,5 @@
 ﻿
-using CsvReader.Net6.Test;
+using CsvReader.Test;
 using Simple.CsvReader;
 
 string currentDirectory = Directory.GetCurrentDirectory();

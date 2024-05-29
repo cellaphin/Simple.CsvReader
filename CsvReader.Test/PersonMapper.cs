@@ -1,6 +1,6 @@
 ﻿using Simple.CsvReader;
 
-namespace CsvReader.Net6.Test;
+namespace CsvReader.Test;
 
 internal class PersonMapper : RowMapper<Person>
 {

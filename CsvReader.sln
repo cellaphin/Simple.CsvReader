@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader.Net6.Test", "CsvReader.Net6.Test\CsvReader.Net6.Test.csproj", "{69CACCC1-CB18-49C2-B394-92AB9D38FF52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader.Test", "CsvReader.Test\CsvReader.Test.csproj", "{69CACCC1-CB18-49C2-B394-92AB9D38FF52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
